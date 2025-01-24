@@ -1,0 +1,73 @@
+/* Base styles */
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  transition: all 0.3s ease;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+#card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1.2fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 13px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 230px;
+  height: 170px;
+  object-fit: fill;
+  margin-bottom: 5px;
+  border-radius: 3%;
+}
+
+.card h3 {
+  margin: 5px 0;
+  font-size: 1.4em;
+}
+
+.card h4 {
+  margin: 5px 0;
+  font-size: 0.85em;
+}
+
+.card .type {
+  display: inline-block;
+  padding: 3px 6px;
+  border-radius: 12px;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  font-size: 1em;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}

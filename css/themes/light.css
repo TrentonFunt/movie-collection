@@ -1,0 +1,19 @@
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+button {
+    background-color: #4a90e2;
+    color: white;
+}
+
+.type {
+    background-color: #e0e0e0;
+    color: #333;
+}
