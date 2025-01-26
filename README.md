@@ -52,10 +52,11 @@ A responsive web application for browsing and filtering movies from a curated co
     ```bash
     git push origin branch-name
 
-    - Create PRs for code review before merging into main.
+- Create PRs for code review before merging into main.
 
 4. Syncing: 
     - Regularly pull upstream changes:
+
     ```bash
     git pull origin main
 
