@@ -40,18 +40,22 @@ A responsive web application for browsing and filtering movies from a curated co
 ## Git Workflow
 1. Branching: Create feature branches for new work:
     ```bash
-    git checkout -b feature/filter
+    git checkout -b feature/(new-feature)
 
 2. Commits: Write descriptive commit messages:
     ```bash
-    git commit -m "feat: Add year filter functionality"
+    git commit -m "feat: Add (new functionality)"
+
 3. Pull Requests:
 
-    - Push branches to remote: git push origin branch-name
+    - Push branches to remote: 
+    ```bash
+    git push origin branch-name
 
-    -  Create PRs for code review before merging into main.
+    - Create PRs for code review before merging into main.
 
-4. Syncing: Regularly pull upstream changes:
+4. Syncing: 
+    - Regularly pull upstream changes:
     ```bash
     git pull origin main
 
