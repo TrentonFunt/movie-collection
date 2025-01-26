@@ -54,4 +54,37 @@ function loadMovieCards() {
     ];
 
     renderCards(sampleMovie);
+
+    // Populate filters with the sample data
+    populateFilters(sampleMovie);
+}
+
+// Add this new function to populate year/genre dropdowns
+function populateFilters(movieList) {
+    const yearFilter = document.getElementById("year-filter");
+    const genreFilter = document.getElementById("genre-filter");
+
+    // Clear existing options (if any)
+    yearFilter.innerHTML = '<option value="">All Years</option>';
+    genreFilter.innerHTML = '<option value="">All Genres</option>';
+
+    // Extract unique years and genres
+    const years = [...new Set(movieList.map(movie => movie.year))];
+    const genres = [...new Set(movieList.map(movie => movie.genre))];
+
+    // Populate year filter
+    years.sort().forEach(year => {
+        const option = document.createElement("option");
+        option.value = year;
+        option.textContent = year;
+        yearFilter.appendChild(option);
+    });
+
+    // Populate genre filter
+    genres.sort().forEach(genre => {
+        const option = document.createElement("option");
+        option.value = genre;
+        option.textContent = genre;
+        genreFilter.appendChild(option);
+    });
 }
