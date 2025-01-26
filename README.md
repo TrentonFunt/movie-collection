@@ -85,8 +85,7 @@ A responsive web application for browsing and filtering movies from a curated co
 
 1. **Tiwalade Adegoke (https://github.com/TrentonFunt)**:  
    - Implemented year/genre filter dropdowns and dynamic population.  
-   - Collaborated on responsive CSS and HTML structure.  
-   - Integrated theme toggle functionality.  
+   - Collaborated on responsive CSS and HTML structure.    
 
 2. **Princess OKoli (https://github.com/PriincessOkoli)**:  
    - Built the real-time search feature with input event listeners.  
