@@ -87,7 +87,8 @@ A responsive web application for browsing and filtering movies from a curated co
    - Implemented year/genre filter dropdowns and dynamic population.  
    - Collaborated on responsive CSS and HTML structure.    
 
-2. **Princess OKoli (https://github.com/PriincessOkoli)**:  
+2. **OKoli Chimarume Obianuju
+(https://github.com/PriincessOkoli)**:  
    - Built the real-time search feature with input event listeners.  
    - Contributed to CSS styling for cards and media queries.  
    - Assisted with HTML templating for movie cards.  
